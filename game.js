@@ -46,7 +46,7 @@ playGame.prototype = {
           // setting pin registration point in its center
           pin.anchor.set(0.5);
           // adding the text field
-	  var style = { font: 'bold 20pt Arial', fill: 'white', align: 'left', wordWrap: true, wordWrapWidth: 150 };
+	  var style = { font: 'bold 20pt Arial', fill: 'black', align: 'center', wordWrap: true, wordWrapWidth: 450 };
           prizeText = game.add.text(game.world.centerX, 480, "", style);
           // setting text field registration point in its center
           prizeText.anchor.set(0.5);
