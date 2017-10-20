@@ -31,12 +31,12 @@ playGame.prototype = {
      preload: function(){
           // preloading graphic assets
           game.load.image("wheel", "wheel.png");
-		game.load.image("pin", "pin.png");     
+	  game.load.image("pin", "pin.png");     
      },
      // funtion to be executed when the state is created
   	create: function(){
           // giving some color to background
-  		game.stage.backgroundColor = "#880044";
+  		game.stage.backgroundColor = "#ffffff";
           // adding the wheel in the middle of the canvas
   		wheel = game.add.sprite(game.width / 2, game.width / 2, "wheel");
           // setting wheel registration point in its center
