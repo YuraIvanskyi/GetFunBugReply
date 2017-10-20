@@ -7,7 +7,7 @@ var canSpin;
 // slices (prizes) placed in the wheel
 var slices = 8;
 // prize names, starting from 12 o'clock going clockwise
-var slicePrizes = ["A KEY!!!", "50 STARS", "500 STARS", "BAD LUCK!!!", "200 STARS", "100 STARS", "150 STARS", "BAD LUCK!!!"];
+var slicePrizes = ["This is intended behaviour.", "It's WNF", "Our QA team is addind it right now.", "Re-check QADB for 100500 times and BUG IT!", "This issue is too minor and not worth submiting.", "We have a general bug for this issue.", "Our tester are investigating your issue.", "Don't submit it, probably NAB."];
 // the prize you are about to win
 var prize;
 // text field where to show the prize
