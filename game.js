@@ -15,7 +15,7 @@ var prizeText;
 
 window.onload = function() {	
      // creation of a 458x488 game
-	game = new Phaser.Game(458, 488, Phaser.AUTO, "");
+	game = new Phaser.Game(458, 508, Phaser.AUTO, "");
      // adding "PlayGame" state
      game.state.add("PlayGame",playGame);
      // launching "PlayGame" state
@@ -46,7 +46,8 @@ playGame.prototype = {
           // setting pin registration point in its center
           pin.anchor.set(0.5);
           // adding the text field
-          prizeText = game.add.text(game.world.centerX, 480, "");
+	  var style = { font: 'bold 20pt Arial', fill: 'white', align: 'left', wordWrap: true, wordWrapWidth: 150 };
+          prizeText = game.add.text(game.world.centerX, 480, "", style);
           // setting text field registration point in its center
           prizeText.anchor.set(0.5);
           // aligning the text to center
