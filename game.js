@@ -2,7 +2,7 @@ var game;
 var wheel; 
 var canSpin;
 var slices = 8;
-var slicePrizes = ["This is intended behaviour.", "It's WNF", "Our QA team is addind it right now.", "Re-check QADB for 100500 times and BUG IT!", "This issue is too minor and not worth submiting.", "We have a general bug for this issue.", "Our tester are investigating your issue.", "Don't submit it, probably NAB."];
+var slicePrizes = ["This is intended behaviour.", "It's WNF", "Our QA team is addind it right now.", "Re-check QADB for 100500 times and BUG IT!", "This issue is too minor and not worth submiting.", "We have a general bug for this issue.", "Our testers are investigating your issue.", "Don't submit it, probably NAB."];
 var prize;
 var prizeText;
 
@@ -25,7 +25,7 @@ playGame.prototype = {
           var pin = game.add.sprite(game.width / 2, game.width / 2, "pin");
           pin.anchor.set(0.5);
 	  var style = { font: 'bold 20pt Arial', fill: 'black', align: 'center', wordWrap: true, wordWrapWidth: 450 };
-          prizeText = game.add.text(game.world.centerX, 480, "", style);
+          prizeText = game.add.text(game.world.centerX, 490, "", style);
           prizeText.anchor.set(0.5);
           prizeText.align = "center";
           canSpin = true;
